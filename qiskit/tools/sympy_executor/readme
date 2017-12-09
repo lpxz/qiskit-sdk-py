@@ -1,0 +1,5 @@
+
+I changed  _dagbackend.py:
+            self.circuit.apply_operation_back(
+                name, qubits, [], list(map(lambda x: x.real(nested_scope),
+                                           args)), condition)
